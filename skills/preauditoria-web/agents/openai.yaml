@@ -1,0 +1,4 @@
+interface:
+  display_name: "Antes de la reunión · Preauditoría web"
+  short_description: "Investiga empresa y contactos y prepara la reunión"
+  default_prompt: "Usa $preauditoria-web con esta hoja de números y las personas del correo para investigar la empresa y preparar la presentación web de la reunión."

@@ -1,0 +1,12 @@
+clientes/
+private/
+work/
+dist/
+.env*
+!.env.example
+.vercel/
+node_modules/
+__pycache__/
+*.pdf
+*.csv
+*.xlsx

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Después · Propuesta web y presupuesto"
+  short_description: "Convierte la reunión en propuesta web y presupuesto"
+  default_prompt: "Usa $propuestas-presupuestos con el expediente previo y estas notas de reunión para crear la propuesta web y su presupuesto."

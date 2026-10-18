@@ -1,0 +1,2361 @@
+{
+  "title": "Tu primera mejora",
+  "subtitle": "WTG · Descubrimiento",
+  "intro": [
+    "Cuéntanos cómo trabajas para identificar una primera tarea que podamos simplificar.",
+    "Puedes dejar en blanco lo que no corresponda y continuar después."
+  ],
+  "confidentiality": "Tus respuestas son confidenciales. Solo las usa el equipo de WTG para preparar la consultoría y no se comparten con terceros.",
+  "sections": [
+    {
+      "id": "empresa",
+      "title": "Tu actividad profesional",
+      "lead": "Centramos la consultoría en tu ejercicio profesional: los encargos que llevas, lo que haces personalmente y cómo te coordinas con clientes o colaboradores. Confirma las referencias precargadas; no presuponen la organización actual de tu actividad.",
+      "fields": [
+        {
+          "id": "empresa_nombre",
+          "label": "Nombre con el que desarrollas tu actividad profesional",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "empresa_web",
+          "label": "Tu web o canal de referencia profesional",
+          "type": "url",
+          "placeholder": "https://"
+        },
+        {
+          "id": "contacto_nombre",
+          "label": "Persona que responde",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "contacto_cargo",
+          "label": "Cargo",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "contacto_email",
+          "label": "Email de contacto",
+          "type": "email",
+          "required": true
+        },
+        {
+          "id": "contacto_tel",
+          "label": "Teléfono",
+          "type": "tel"
+        },
+        {
+          "id": "alcance",
+          "label": "¿Qué parte de tu trabajo quieres que analicemos?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Mi ejercicio profesional independiente",
+            "Los encargos que realizo en colaboración con Cliente",
+            "Ambos ámbitos, distinguiendo responsabilidades, datos y herramientas"
+          ],
+          "other": true,
+          "legacyOptions": [
+            "Mi despacho propio (Cliente · Estudio de Ingeniería)",
+            "Mi trabajo como responsable técnico de la oficina de Zaragoza de Cliente",
+            "Las dos, porque comparten equipo y forma de trabajar"
+          ]
+        },
+        {
+          "id": "relacion_fenix",
+          "label": "Si colaboras con Cliente, ¿qué encargos y decisiones dependen de ti y cuáles de esa colaboración?",
+          "type": "textarea",
+          "rows": 3,
+          "help": "Cuéntanos cómo es la relación actual. No damos por hecho que compartáis equipo, sistemas, clientes o estructura."
+        },
+        {
+          "id": "sector",
+          "label": "Especialidad principal",
+          "type": "text",
+          "placeholder": "Ej.: proyectos de instalaciones, licencias de actividad, naves industriales…"
+        },
+        {
+          "id": "anio_fundacion",
+          "label": "¿Desde cuándo ejerces por cuenta propia?",
+          "type": "text",
+          "short": true,
+          "help": "En el perfil que nos has compartido aparece actividad independiente desde 2013. Confirma el dato que corresponda a tu actividad actual."
+        },
+        {
+          "id": "empleados",
+          "label": "¿Con quién realizas habitualmente los encargos?",
+          "type": "radio",
+          "options": [
+            "Solo yo",
+            "Yo, con colaboradores externos según el encargo",
+            "2–3",
+            "4–9",
+            "10–49",
+            "50 o más"
+          ],
+          "legacyOptions": [
+            "Solo yo",
+            "2–3",
+            "4–9",
+            "10–49",
+            "50 o más"
+          ]
+        },
+        {
+          "id": "facturacion",
+          "label": "Volumen económico aproximado de tu actividad propia, si quieres compartirlo",
+          "type": "radio",
+          "options": [
+            "Menos de 100.000 €",
+            "100.000 – 300.000 €",
+            "300.000 € – 1 M€",
+            "1 – 5 M€",
+            "Más de 5 M€",
+            "Prefiero no decirlo"
+          ],
+          "help": "Opcional. Puedes dejarlo pendiente; no hace falta aportar datos económicos de clientes o de Cliente."
+        },
+        {
+          "id": "sedes",
+          "label": "¿Desde dónde trabajas y cómo alternas despacho, obra y visitas?",
+          "type": "textarea",
+          "rows": 2,
+          "placeholder": "Ej.: oficina en C/ Muel 13 (Zaragoza); encargos en Aragón y retail en toda España"
+        },
+        {
+          "id": "modelo",
+          "label": "¿Quién te encarga los trabajos?",
+          "type": "checkbox",
+          "options": [
+            "Particulares y autónomos que abren un negocio",
+            "Pymes",
+            "Grandes marcas y cadenas de retail",
+            "Industria",
+            "Promotoras y constructoras",
+            "Estudios de arquitectura",
+            "Administración pública",
+            "Aseguradoras y abogados (peritaciones)"
+          ],
+          "other": true
+        },
+        {
+          "id": "que_hacen",
+          "label": "¿Qué servicios realizas personalmente y qué parte coordinas con otros?",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Proyectos, legalizaciones, licencias de apertura, dirección de obra, instalaciones, eficiencia energética…"
+        },
+        {
+          "id": "productos",
+          "label": "¿Qué entregables preparas en tus encargos?",
+          "type": "textarea",
+          "placeholder": "Memorias, planos, cálculos, certificados, actas, presupuestos, documentación para legalización…",
+          "help": "En tu web aparecen proyectos y dirección de obra de instalaciones, licencias y legalizaciones de locales, naves industriales, auditorías y certificados energéticos, y peritaciones y tasaciones."
+        },
+        {
+          "id": "cliente_tipo",
+          "label": "¿Cómo es tu cliente típico y cómo llega a ti?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "momento",
+          "label": "¿En qué momento está tu actividad?",
+          "type": "radio",
+          "options": [
+            "Creciendo rápido",
+            "Estable",
+            "Reorganizándose",
+            "En dificultades",
+            "Preparando un cambio importante (relevo, venta, expansión)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perspectiva",
+      "title": "Tu día a día",
+      "lead": "Responde desde tu propia experiencia. Nos interesa cómo compaginas el trabajo técnico, la relación con clientes, las gestiones y la coordinación de cada encargo.",
+      "fields": [
+        {
+          "id": "perfil_respuesta",
+          "label": "¿Qué papeles asumes en tu actividad? Puedes elegir varios.",
+          "type": "checkbox",
+          "options": [
+            "Profesional independiente / titular del despacho",
+            "Desarrollo de proyectos y documentación técnica",
+            "Dirección de obra y coordinación",
+            "Gestión de clientes, ofertas y expedientes",
+            "Colaboración técnica con Cliente",
+            "Otra función"
+          ],
+          "legacyOptions": [
+            "Dirección o propietario",
+            "Responsable de área",
+            "Operaciones y trabajo técnico",
+            "Soporte tecnológico",
+            "Colaborador externo",
+            "Otra función"
+          ]
+        },
+        {
+          "id": "responsabilidades",
+          "label": "¿Qué haces tú y qué prefieres delegar o coordinar con un colaborador?",
+          "type": "textarea",
+          "help": "Una misma persona puede preparar, gestionar y revisar. Eso es normal en un despacho independiente."
+        },
+        {
+          "id": "caso_reciente",
+          "label": "Cuéntanos un caso reciente que represente una dificultad habitual.",
+          "type": "textarea",
+          "placeholder": "Qué necesitabas hacer → qué ocurrió → qué consecuencia tuvo → cómo lo resolviste."
+        },
+        {
+          "id": "expectativa_personal",
+          "label": "¿En qué parte de tu jornada te gustaría ganar tiempo o trabajar con más tranquilidad?",
+          "type": "textarea"
+        },
+        {
+          "id": "perspectivas_distintas",
+          "label": "¿Dónde suele haber diferencias entre lo que pide el cliente, lo que preparas y lo que necesita otro interviniente?",
+          "type": "textarea",
+          "placeholder": "Cliente, técnico colaborador, instalador, dirección facultativa, ayuntamiento…"
+        },
+        {
+          "id": "preguntas_sesion",
+          "label": "¿Qué dudas quieres que tratemos en la sesión?",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "objetivos",
+      "title": "Qué quieres mejorar",
+      "lead": "Buscamos mejoras proporcionadas a tu actividad y a cinco horas de consultoría: menos tareas repetidas, información más localizable y un uso de IA que puedas mantener tú mismo.",
+      "fields": [
+        {
+          "id": "por_que_ahora",
+          "label": "¿Por qué te interesa la IA ahora? ¿Qué ha pasado para dar este paso?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "id": "objetivos_estrategicos",
+          "label": "¿Qué te gustaría mejorar en tu actividad en los próximos meses?",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "1.\n2.\n3."
+        },
+        {
+          "id": "iniciativas",
+          "label": "¿Qué cambios has empezado a probar en tu manera de trabajar?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "estrategia_digital",
+          "label": "¿Tienes una lista o un plan propio de mejoras en herramientas e IA?",
+          "type": "radio",
+          "options": [
+            "No",
+            "Hay ideas, pero no por escrito",
+            "Sí, pero está desactualizado",
+            "Sí, actualizado y en marcha"
+          ]
+        },
+        {
+          "id": "problemas_top",
+          "label": "Los tres problemas que más tiempo o dinero te cuestan hoy",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "1.\n2.\n3."
+        },
+        {
+          "id": "resultado_esperado",
+          "label": "Al terminar la consultoría, ¿qué te gustaría tener en la mano?",
+          "type": "checkbox",
+          "options": [
+            "Un mapa de dónde aplicar IA en la empresa",
+            "Una lista priorizada de casos de uso",
+            "Un plan de implantación con fases y costes",
+            "Recomendación de herramientas concretas",
+            "Formación básica para el equipo",
+            "Una política o normas de uso de IA",
+            "Un piloto o prueba ya funcionando"
+          ],
+          "other": true
+        },
+        {
+          "id": "exito",
+          "label": "¿Cómo sabrás dentro de 6 meses que esto ha funcionado?",
+          "type": "textarea",
+          "help": "Ej.: “sacar una memoria técnica de licencia en 2 horas en vez de 6”, “responder un presupuesto de honorarios el mismo día”."
+        },
+        {
+          "id": "kpis_baseline",
+          "label": "¿Qué referencias tienes hoy sobre tiempos, carga de trabajo o errores?",
+          "type": "textarea",
+          "rows": 3,
+          "placeholder": "Encargos al mes, horas de una memoria, requerimientos recibidos, tiempo buscando documentos…"
+        },
+        {
+          "id": "criticidad",
+          "label": "¿Cómo de importante es esto para tu actividad?",
+          "type": "scale",
+          "min": 1,
+          "max": 10,
+          "minLabel": "Interesante",
+          "maxLabel": "Crítico"
+        },
+        {
+          "id": "decisor",
+          "label": "¿Qué herramientas y gastos puedes decidir tú y cuáles requieren acuerdo con un colaborador o con Cliente?",
+          "type": "text"
+        },
+        {
+          "id": "presupuesto",
+          "label": "Si después quisieras implantar alguna mejora, ¿qué inversión te resultaría razonable?",
+          "type": "radio",
+          "options": [
+            "Aún no lo sé",
+            "Menos de 1.500 €",
+            "1.500 – 5.000 €",
+            "5.000 – 15.000 €",
+            "Más de 15.000 €"
+          ],
+          "help": "Orientativo y opcional. No modifica las cinco horas de consultoría acordadas."
+        },
+        {
+          "id": "plazo",
+          "label": "¿Cuándo te gustaría tener las primeras mejoras funcionando?",
+          "type": "radio",
+          "options": [
+            "0–3 meses",
+            "3–6 meses",
+            "6–12 meses",
+            "Más de 12 meses"
+          ]
+        },
+        {
+          "id": "retorno",
+          "label": "Si hicieras esa inversión, ¿en qué plazo te gustaría notar su utilidad?",
+          "type": "radio",
+          "options": [
+            "Menos de 6 meses",
+            "6–12 meses",
+            "12–24 meses",
+            "No lo hemos pensado"
+          ]
+        },
+        {
+          "id": "intentos_previos",
+          "label": "¿Has intentado antes digitalizar o automatizar algo que no salió como esperabas? ¿Qué pasó?",
+          "type": "textarea",
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "id": "organizacion",
+      "title": "Cómo te organizas y colaboras",
+      "lead": "Trabajar por tu cuenta puede implicar coordinar a arquitectos, delineantes, instaladores, asesores y clientes. Distingue lo que haces tú de los apoyos que utilizas.",
+      "fields": [
+        {
+          "id": "equipo",
+          "label": "¿Qué haces por tu cuenta y con qué colaboradores cuentas?",
+          "type": "textarea",
+          "rows": 4,
+          "placeholder": "Yo preparo las memorias; un delineante apoya con planos; una asesoría lleva la parte fiscal…"
+        },
+        {
+          "id": "colaboradores",
+          "label": "¿Con qué profesionales o proveedores colaboras habitualmente?",
+          "type": "checkbox",
+          "options": [
+            "Estudios de arquitectura",
+            "Aparejadores",
+            "Instaladores (electricistas, climatización, PCI)",
+            "Constructoras",
+            "OCA y entidades de inspección",
+            "Gestorías o abogados",
+            "Otros ingenieros"
+          ],
+          "other": true
+        },
+        {
+          "id": "entrevistas",
+          "label": "¿Con quién tendría sentido contrastar un proceso concreto, si fuera necesario?",
+          "type": "textarea",
+          "rows": 4,
+          "help": "No hace falta organizar entrevistas ni tener equipo. Puedes indicar una función o dejarlo para la sesión."
+        },
+        {
+          "id": "personas_clave",
+          "label": "¿Hay algún colaborador o proveedor del que dependas para sacar adelante ciertos encargos?",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "id": "nivel_digital",
+          "label": "Tu soltura con herramientas digitales (más allá de los programas de cálculo)",
+          "type": "scale",
+          "min": 1,
+          "max": 5,
+          "minLabel": "Muy bajo",
+          "maxLabel": "Muy alto"
+        },
+        {
+          "id": "actitud_cambio",
+          "label": "¿Cómo vives tú los cambios de herramienta o de forma de trabajar?",
+          "type": "radio",
+          "options": [
+            "Me gusta probar y comparar",
+            "Me interesa si veo un uso concreto",
+            "Prefiero apoyo para empezar",
+            "Ahora mismo me cuesta encontrar tiempo",
+            "También debo coordinarlo con colaboradores"
+          ],
+          "legacyOptions": [
+            "Con entusiasmo",
+            "Con curiosidad pero necesita apoyo",
+            "Con desconfianza",
+            "Trabajo solo, no aplica"
+          ]
+        },
+        {
+          "id": "roles_digitales",
+          "label": "¿Alguien se encarga de la parte informática o de digitalización?",
+          "type": "radio",
+          "options": [
+            "Nadie, lo hago yo",
+            "Alguien del equipo además de su trabajo",
+            "Lo lleva Cliente",
+            "Un proveedor externo"
+          ]
+        },
+        {
+          "id": "perfiles_tecnicos",
+          "label": "¿Qué dominas tú de Excel, CAD/BIM, cálculo, automatización o programación? ¿En qué recurres a otros?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "formacion",
+          "label": "¿Cómo aprendes a usar herramientas nuevas?",
+          "type": "radio",
+          "options": [
+            "Por mi cuenta (vídeos, prueba y error)",
+            "Cursos del Colegio (COIIAR) u otros",
+            "Formación del fabricante del software",
+            "Apenas tengo tiempo para formarme"
+          ]
+        },
+        {
+          "id": "disponibilidad_equipo",
+          "label": "¿Qué tiempo real puedes dedicar a probar una mejora entre encargos o después de la consultoría?",
+          "type": "text"
+        },
+        {
+          "id": "externos",
+          "label": "¿Qué tienes externalizado?",
+          "type": "checkbox",
+          "options": [
+            "Gestoría / contabilidad",
+            "Laboral / nóminas",
+            "Informática / soporte IT",
+            "Web",
+            "Delineación o modelado BIM",
+            "Cálculos de estructura",
+            "Visado o tramitación"
+          ],
+          "other": true
+        }
+      ]
+    },
+    {
+      "id": "personas",
+      "title": "Tú y tu red de colaboración",
+      "lead": "Esta ficha es un mapa de apoyos, no un organigrama. Puedes empezar contigo («Yo») y añadir solo los colaboradores o proveedores que intervienen en tus encargos.",
+      "fields": [
+        {
+          "id": "stakeholderRoles",
+          "label": "Tu papel y los colaboradores relevantes",
+          "type": "repeat",
+          "fields": [
+            {
+              "id": "nombre",
+              "label": "Persona o función: tú, colaborador, asesor o proveedor",
+              "type": "text"
+            },
+            {
+              "id": "area",
+              "label": "¿En qué tipo de trabajo interviene?",
+              "type": "text"
+            },
+            {
+              "id": "funciones",
+              "label": "¿Qué papel tiene?",
+              "type": "checkbox",
+              "options": [
+                "Decide y prioriza",
+                "Ejecuta el trabajo",
+                "Revisa o aprueba",
+                "Mantiene las herramientas",
+                "Facilita acceso a los datos",
+                "Colabora externamente"
+              ]
+            },
+            {
+              "id": "procesos",
+              "label": "Procesos que conoce o en los que participa",
+              "type": "textarea"
+            },
+            {
+              "id": "sistemas",
+              "label": "Herramientas o datos que conoce",
+              "type": "text"
+            },
+            {
+              "id": "capacidades",
+              "label": "Autonomía para estas tareas, sea la tuya o la de un colaborador",
+              "type": "matrix_choice",
+              "rows": [
+                "Documentación y hojas de cálculo",
+                "Gestión de sistemas",
+                "Automatización",
+                "Análisis de datos",
+                "Uso de IA",
+                "Validación de resultados"
+              ],
+              "cols": [
+                "No lo utiliza",
+                "Necesita apoyo",
+                "Lo usa con autonomía",
+                "Puede apoyar a otros",
+                "No lo sé"
+              ]
+            },
+            {
+              "id": "necesidad",
+              "label": "¿Qué apoyo o formación necesita?",
+              "type": "textarea"
+            },
+            {
+              "id": "disponibilidad",
+              "label": "Disponibilidad para participar o validar",
+              "type": "text"
+            },
+            {
+              "id": "dependencias",
+              "label": "¿De qué otras personas o proveedores depende?",
+              "type": "textarea"
+            },
+            {
+              "id": "origen",
+              "label": "¿De quién procede esta información?",
+              "type": "radio",
+              "options": [
+                "De esta persona directamente",
+                "Es mi descripción de su función",
+                "Pendiente de confirmar"
+              ]
+            },
+            {
+              "id": "expectativas",
+              "label": "¿Qué espera de la colaboración y qué dificultades ha comentado?",
+              "type": "textarea"
+            }
+          ],
+          "max": 30,
+          "startWith": 0
+        }
+      ]
+    },
+    {
+      "id": "procesos",
+      "title": "Tus tipos de encargo",
+      "lead": "Recorre tus encargos de principio a fin: proyectos y legalizaciones, licencias de actividad, dirección de obra o eficiencia energética. Puedes describir hasta seis y añadir todo el detalle que necesites.",
+      "fields": [
+        {
+          "id": "procesos",
+          "label": "Tipo de encargo",
+          "type": "repeat",
+          "min": 1,
+          "max": 6,
+          "startWith": 0,
+          "formsCopies": 3,
+          "fields": [
+            {
+              "id": "nombre",
+              "label": "Tipo de encargo o proceso",
+              "type": "text",
+              "placeholder": "Ej.: legalización de una instalación, acondicionamiento de un local, dirección de obra…"
+            },
+            {
+              "id": "area",
+              "label": "Especialidad o tipo de proyecto",
+              "type": "text",
+              "short": true,
+              "placeholder": "Despacho / Cliente"
+            },
+            {
+              "id": "responsables",
+              "label": "¿Qué haces tú y quién interviene en el resto?",
+              "type": "text"
+            },
+            {
+              "id": "disparador",
+              "label": "¿Cómo empieza?",
+              "type": "text",
+              "placeholder": "Ej.: llama un cliente que quiere abrir un bar, un arquitecto me pasa los planos, llega un requerimiento"
+            },
+            {
+              "id": "pasos",
+              "label": "Pasos principales, de principio a fin",
+              "type": "textarea",
+              "rows": 4,
+              "placeholder": "1. Visita al local y toma de datos\n2. Planos en AutoCAD\n3. Cálculos en CYPE\n4. Redacto la memoria en Word a partir de otra anterior\n5. Visado y presentación en la sede electrónica\n6. Requerimientos y subsanación\n…"
+            },
+            {
+              "id": "aprobaciones",
+              "label": "¿Qué revisas o firmas tú y qué validan cliente, colaborador o administración?",
+              "type": "text"
+            },
+            {
+              "id": "herramientas",
+              "label": "Programas, plantillas y documentos que intervienen",
+              "type": "text"
+            },
+            {
+              "id": "frecuencia",
+              "label": "Frecuencia",
+              "type": "radio",
+              "options": [
+                "Varias veces por semana",
+                "Semanal",
+                "Mensual",
+                "Ocasional"
+              ]
+            },
+            {
+              "id": "volumen",
+              "label": "Volumen aproximado",
+              "type": "text",
+              "placeholder": "Ej.: 6 licencias al mes"
+            },
+            {
+              "id": "tiempo",
+              "label": "Horas de trabajo que dedicas a cada encargo; separa el apoyo externo si lo conoces",
+              "type": "text",
+              "placeholder": "Ej.: 8 h de oficina + 2 h de visita"
+            },
+            {
+              "id": "dolor",
+              "label": "¿Qué falla o molesta? (requerimientos, esperas, retrabajos, copiar de un proyecto anterior…)",
+              "type": "textarea",
+              "rows": 2
+            },
+            {
+              "id": "impacto",
+              "label": "Impacto en el negocio si mejorara",
+              "type": "scale",
+              "min": 1,
+              "max": 5,
+              "minLabel": "Poco",
+              "maxLabel": "Mucho"
+            },
+            {
+              "id": "entradas",
+              "label": "¿Qué información o documentos necesitas para empezar?",
+              "type": "textarea"
+            },
+            {
+              "id": "salida",
+              "label": "¿Qué se entrega, a quién y cuándo se considera terminado?",
+              "type": "textarea",
+              "placeholder": "Memoria y planos, certificado, acta de obra, expediente presentado…"
+            },
+            {
+              "id": "pasos_guiados",
+              "label": "Recorrido del proceso",
+              "type": "steps",
+              "help": "Añade cada paso con una acción concreta. Puedes cambiar su orden con los botones."
+            },
+            {
+              "id": "ejecuciones",
+              "label": "Número de ejecuciones por periodo",
+              "type": "number"
+            },
+            {
+              "id": "periodo",
+              "label": "Periodo de esas ejecuciones",
+              "type": "radio",
+              "options": [
+                "Día",
+                "Semana",
+                "Mes",
+                "Año"
+              ]
+            },
+            {
+              "id": "duracion_valor",
+              "label": "Tiempo de trabajo activo por ejecución",
+              "type": "number"
+            },
+            {
+              "id": "duracion_unidad",
+              "label": "Unidad de tiempo",
+              "type": "radio",
+              "options": [
+                "Minutos",
+                "Horas"
+              ]
+            },
+            {
+              "id": "espera",
+              "label": "Tiempo de espera aproximado y unidad",
+              "type": "text",
+              "placeholder": "Ej.: entre 1 y 3 días; no es tiempo de trabajo activo."
+            },
+            {
+              "id": "consecuencia",
+              "label": "¿Qué ocurre si hay un error o se incumple el plazo?",
+              "type": "textarea"
+            },
+            {
+              "id": "medida",
+              "label": "¿Cómo conoces estos tiempos o volúmenes?",
+              "type": "radio",
+              "options": [
+                "Estimación personal",
+                "Registrados en una herramienta",
+                "Muestra comprobada",
+                "Pendiente de medir"
+              ]
+            },
+            {
+              "id": "dependencias",
+              "label": "Otros procesos, fuentes o roles de los que depende",
+              "type": "textarea"
+            },
+            {
+              "id": "fuentes_vinculadas",
+              "label": "Fuentes de información de este proceso",
+              "type": "references",
+              "ref": "dataSources"
+            },
+            {
+              "id": "roles_vinculados",
+              "label": "Personas o apoyos que intervienen en este encargo",
+              "type": "references",
+              "ref": "stakeholderRoles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repetitivo",
+      "title": "Lo que te hace perder tiempo",
+      "lead": "Busca tareas que se repiten entre encargos: adaptar memorias, localizar antecedentes, revisar documentos, contestar requerimientos o actualizar al cliente.",
+      "fields": [
+        {
+          "id": "horas_admin",
+          "label": "¿Cuántas horas a la semana dedicas a gestiones o tareas repetitivas?",
+          "type": "radio",
+          "options": [
+            "Menos de 5",
+            "5–10",
+            "10–20",
+            "20–40",
+            "Más de 40",
+            "No lo sé"
+          ]
+        },
+        {
+          "id": "copiar_pegar",
+          "label": "¿Qué datos copias a mano de un sitio a otro?",
+          "type": "textarea",
+          "rows": 3,
+          "placeholder": "Ej.: datos del cliente y del local del email a la memoria, a la hoja de honorarios, al formulario del Ayuntamiento y a la factura"
+        },
+        {
+          "id": "tareas_manuales",
+          "label": "¿Cuáles de estas tareas haces hoy de forma manual?",
+          "type": "checkbox",
+          "options": [
+            "Redactar memorias técnicas a partir de otras anteriores",
+            "Buscar y comprobar artículos de normativa (REBT, RITE, CTE, RSCIEI, ordenanzas)",
+            "Rellenar formularios y declaraciones responsables de la sede electrónica",
+            "Preparar y presentar documentación para el visado",
+            "Contestar requerimientos y subsanaciones del Ayuntamiento o la DGA",
+            "Preparar presupuestos de honorarios",
+            "Mediciones y presupuestos de obra",
+            "Actas de visita y reportajes fotográficos de dirección de obra",
+            "Redactar informes periciales o de tasación",
+            "Introducir datos en CE3X, HULC u otros programas de certificación",
+            "Seguir el estado de cada expediente",
+            "Responder emails y llamadas de clientes sobre el estado de su trámite",
+            "Emitir facturas y reclamar cobros",
+            "Pasar a limpio notas o audios de visitas"
+          ],
+          "other": true
+        },
+        {
+          "id": "esperas",
+          "label": "¿Dónde se queda parado un expediente esperando? (cliente que no manda datos, Colegio, Ayuntamiento, otros técnicos…)",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "id": "errores",
+          "label": "¿Qué errores o requerimientos se repiten y qué consecuencias tienen?",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "id": "metricas_procesos",
+          "label": "¿Sabes cuántas horas te lleva de verdad cada tipo de encargo?",
+          "type": "radio",
+          "options": [
+            "No",
+            "Más o menos, de cabeza",
+            "Sí, lo registro"
+          ]
+        },
+        {
+          "id": "eliminar",
+          "label": "Si mañana pudieras eliminar una tarea de tu semana, ¿cuál sería?",
+          "type": "textarea",
+          "rows": 2,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "informacion",
+      "title": "Tu archivo técnico y documentación",
+      "lead": "Queremos saber cómo organizas memorias, planos, cálculos, normativa, correos y expedientes, y cómo localizas la versión que necesitas en despacho o en obra.",
+      "fields": [
+        {
+          "id": "tipos_info",
+          "label": "¿Qué documentos produces o manejas con frecuencia?",
+          "type": "checkbox",
+          "options": [
+            "Memorias técnicas",
+            "Proyectos de actividad y de instalaciones",
+            "Planos DWG / PDF",
+            "Modelos BIM (Revit, IFC)",
+            "Cálculos (CYPE, dmELECT u otros)",
+            "Mediciones y presupuestos (BC3)",
+            "Certificados de eficiencia energética",
+            "Certificados de fin de obra y de instalación",
+            "Declaraciones responsables",
+            "Requerimientos y respuestas de la Administración",
+            "Actas de visita y fotos de obra",
+            "Informes periciales y tasaciones",
+            "Presupuestos de honorarios y contratos",
+            "Pliegos y licitaciones",
+            "Fichas técnicas de fabricantes",
+            "Normativa y ordenanzas",
+            "Emails con clientes, arquitectos e instaladores"
+          ],
+          "other": true
+        },
+        {
+          "id": "donde_info",
+          "label": "¿Dónde guardas los expedientes y la documentación?",
+          "type": "checkbox",
+          "options": [
+            "Carpetas en mi ordenador",
+            "Servidor o NAS de la oficina",
+            "Servidor de Cliente",
+            "Google Drive",
+            "OneDrive / SharePoint",
+            "Dropbox",
+            "Plataforma del Colegio (visado)",
+            "Email",
+            "WhatsApp",
+            "Papel"
+          ],
+          "other": true
+        },
+        {
+          "id": "volumen_docs",
+          "label": "¿Cuántos expedientes abres al año y cuántos documentos genera cada uno?",
+          "type": "textarea",
+          "rows": 2,
+          "placeholder": "Ej.: unos 80 expedientes al año, 10–20 archivos cada uno"
+        },
+        {
+          "id": "fuente_unica",
+          "label": "Si te pregunto “¿cómo resolviste la ventilación en aquel restaurante de 2019?”, ¿cuánto tardas en encontrarlo y dónde lo buscas?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "historico",
+          "label": "¿Cuántos años de expedientes guardas en digital?",
+          "type": "radio",
+          "options": [
+            "Menos de 3 años",
+            "3–5 años",
+            "5–10 años",
+            "Desde 2012 o antes",
+            "No lo sé"
+          ]
+        },
+        {
+          "id": "formatos",
+          "label": "¿En qué formato está la mayoría de los documentos?",
+          "type": "checkbox",
+          "options": [
+            "Word y Excel",
+            "PDF generados por programa",
+            "PDF escaneados o fotos",
+            "DWG",
+            "Archivos de Revit o IFC",
+            "Archivos de CYPE u otros programas",
+            "Papel"
+          ],
+          "other": true
+        },
+        {
+          "id": "calidad_datos",
+          "label": "¿Cómo de ordenados están tus expedientes y plantillas?",
+          "type": "scale",
+          "min": 1,
+          "max": 5,
+          "minLabel": "Un caos",
+          "maxLabel": "Impecables"
+        },
+        {
+          "id": "duplicados",
+          "label": "¿Tienes varias versiones de la misma plantilla o memoria tipo? ¿Cómo sabes cuál es la buena?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "indicadores",
+          "label": "¿Qué números miras para llevar el despacho (encargos, facturación, horas, cobros) y cómo los sacas?",
+          "type": "textarea",
+          "rows": 3,
+          "placeholder": "Ej.: un Excel de expedientes que actualizo a mano"
+        },
+        {
+          "id": "como_veis_numeros",
+          "label": "¿Cómo ves los números de tu actividad?",
+          "type": "radio",
+          "options": [
+            "Un Excel que llevo a mano",
+            "Lo que me pasa la gestoría",
+            "Un programa de gestión o facturación",
+            "No los miro con regularidad"
+          ]
+        },
+        {
+          "id": "decisiones",
+          "label": "Las decisiones (qué encargos aceptar, qué precio poner) las tomas sobre todo…",
+          "type": "radio",
+          "options": [
+            "Por experiencia e intuición",
+            "Con una mezcla de datos e intuición",
+            "Con datos casi siempre"
+          ]
+        },
+        {
+          "id": "gobernanza",
+          "label": "¿Qué de esto tienes resuelto?",
+          "type": "checkbox",
+          "options": [
+            "Quién es responsable de cada tipo de dato",
+            "Quién puede acceder a qué",
+            "Copias de seguridad",
+            "Qué información es confidencial",
+            "Registro de quién cambia qué",
+            "Nada de lo anterior"
+          ]
+        },
+        {
+          "id": "conocimiento",
+          "label": "¿Tienes documentado tu “know-how” (criterios de cálculo, memorias tipo, listas de comprobación por tipo de licencia)?",
+          "type": "radio",
+          "options": [
+            "Sí, y está al día",
+            "Algo, pero desactualizado",
+            "Solo en la cabeza de las personas",
+            "No lo sé"
+          ]
+        },
+        {
+          "id": "datos_sensibles",
+          "label": "¿Manejáis datos especialmente sensibles?",
+          "type": "checkbox",
+          "options": [
+            "Datos personales de clientes",
+            "Planos y documentación de clientes con confidencialidad",
+            "Datos de salud (peritaciones)",
+            "Datos bancarios",
+            "Proyectos industriales sujetos a NDA",
+            "Ninguno especialmente"
+          ],
+          "other": true
+        }
+      ]
+    },
+    {
+      "id": "fuentes",
+      "title": "Dónde está tu información",
+      "lead": "Una fuente puede ser tu carpeta de expedientes, una plantilla, una hoja de cálculo, el correo o un programa técnico. Describe tus propios accesos y las limitaciones de los documentos de clientes.",
+      "fields": [
+        {
+          "id": "dataSources",
+          "label": "Inventario de fuentes",
+          "type": "repeat",
+          "fields": [
+            {
+              "id": "nombre",
+              "label": "Nombre de la fuente",
+              "type": "text"
+            },
+            {
+              "id": "sistema",
+              "label": "Programa o ubicación",
+              "type": "text"
+            },
+            {
+              "id": "contenido",
+              "label": "¿Qué información contiene y para qué se usa?",
+              "type": "textarea"
+            },
+            {
+              "id": "formato",
+              "label": "Formato",
+              "type": "checkbox",
+              "options": [
+                "Documentos de texto",
+                "PDF con texto",
+                "PDF escaneado / imagen",
+                "Hoja de cálculo",
+                "Base de datos",
+                "Correo o mensajes",
+                "Planos / BIM",
+                "Papel",
+                "Otro"
+              ]
+            },
+            {
+              "id": "volumen",
+              "label": "Volumen aproximado y unidad",
+              "type": "text",
+              "placeholder": "Ej.: unos 200 expedientes, 3.000 filas o 50 GB."
+            },
+            {
+              "id": "historico",
+              "label": "¿Desde cuándo hay información disponible?",
+              "type": "text"
+            },
+            {
+              "id": "actualizacion",
+              "label": "¿Cuándo se actualiza?",
+              "type": "radio",
+              "options": [
+                "Al producirse un cambio",
+                "Cada día",
+                "Cada semana",
+                "Cada mes",
+                "De forma puntual",
+                "Casi nunca"
+              ]
+            },
+            {
+              "id": "responsable",
+              "label": "¿Qué rol se responsabiliza de esta información?",
+              "type": "text"
+            },
+            {
+              "id": "accesos",
+              "label": "¿Quién puede consultarla o modificarla?",
+              "type": "text"
+            },
+            {
+              "id": "acceso",
+              "label": "¿Cómo se puede extraer o utilizar?",
+              "type": "radio",
+              "options": [
+                "Solo consulta manual",
+                "Copiar y pegar",
+                "Descargar documentos o exportar archivos",
+                "Conexión automática / API conocida",
+                "No lo sé"
+              ]
+            },
+            {
+              "id": "calidad",
+              "label": "¿Qué situaciones observas?",
+              "type": "checkbox",
+              "options": [
+                "Faltan datos",
+                "Hay duplicados",
+                "Se mezclan formatos",
+                "Hay datos incorrectos",
+                "Hay versiones desactualizadas",
+                "No hay un criterio claro de validez",
+                "No he detectado problemas",
+                "No lo he comprobado"
+              ]
+            },
+            {
+              "id": "ejemplo_calidad",
+              "label": "Ejemplo o comprobación disponible sobre la calidad",
+              "type": "textarea"
+            },
+            {
+              "id": "sensibilidad",
+              "label": "Clasificación que utilizáis",
+              "type": "radio",
+              "options": [
+                "Pública",
+                "Interna",
+                "Confidencial",
+                "Contiene datos personales o especialmente sensibles",
+                "Sin clasificar / pendiente"
+              ]
+            },
+            {
+              "id": "controles",
+              "label": "Prácticas que utilizáis",
+              "type": "checkbox",
+              "options": [
+                "Responsable definido",
+                "Permisos por función",
+                "Copias de seguridad",
+                "Reglas de conservación",
+                "Registro de cambios o accesos",
+                "No lo sé"
+              ]
+            },
+            {
+              "id": "restricciones",
+              "label": "Restricciones para usarla y aspectos que debemos comprobar",
+              "type": "textarea"
+            },
+            {
+              "id": "mejora",
+              "label": "¿Para qué mejora sería útil y qué información falta?",
+              "type": "textarea"
+            }
+          ],
+          "max": 30,
+          "startWith": 0
+        }
+      ]
+    },
+    {
+      "id": "flujos",
+      "title": "Cómo pasas la información",
+      "lead": "Sigue un encargo desde la solicitud del cliente hasta la entrega o legalización. Incluye los traspasos entre correo, carpetas, programas de cálculo, planos y documentación final.",
+      "fields": [
+        {
+          "id": "dataFlows",
+          "label": "Conexiones entre fuentes",
+          "type": "repeat",
+          "fields": [
+            {
+              "id": "origen",
+              "label": "Fuente o sistema de origen",
+              "type": "reference",
+              "ref": "dataSources"
+            },
+            {
+              "id": "destino",
+              "label": "Fuente o sistema de destino",
+              "type": "reference",
+              "ref": "dataSources"
+            },
+            {
+              "id": "contenido",
+              "label": "¿Qué información se transfiere?",
+              "type": "text"
+            },
+            {
+              "id": "modo",
+              "label": "¿Cómo se transfiere?",
+              "type": "radio",
+              "options": [
+                "Manualmente",
+                "Automáticamente",
+                "Parte manual y parte automática",
+                "No lo sé"
+              ]
+            },
+            {
+              "id": "responsable",
+              "label": "Rol responsable",
+              "type": "text"
+            },
+            {
+              "id": "frecuencia",
+              "label": "¿Cuándo sucede?",
+              "type": "text"
+            },
+            {
+              "id": "transformacion",
+              "label": "¿Se modifica o transforma por el camino?",
+              "type": "textarea"
+            },
+            {
+              "id": "problema",
+              "label": "¿Dónde se pierde tiempo, se duplica o puede fallar?",
+              "type": "textarea"
+            },
+            {
+              "id": "proceso",
+              "label": "Proceso al que pertenece",
+              "type": "text"
+            },
+            {
+              "id": "origen_libre",
+              "label": "Otra fuente de origen no inventariada",
+              "type": "text"
+            },
+            {
+              "id": "destino_libre",
+              "label": "Otra fuente de destino no inventariada",
+              "type": "text"
+            }
+          ],
+          "max": 30,
+          "startWith": 0
+        }
+      ]
+    },
+    {
+      "id": "herramientas",
+      "title": "Tus programas y herramientas",
+      "lead": "Indica lo que utilizas realmente hoy. La formación o experiencia en una herramienta no implica que sea tu programa actual: puedes corregir o ampliar todos los ejemplos.",
+      "fields": [
+        {
+          "id": "tools",
+          "label": "Programa por función",
+          "type": "matrix_text",
+          "rows": [
+            "Dibujo CAD (AutoCAD, BricsCAD…)",
+            "BIM (Revit, otro)",
+            "Cálculo eléctrico (CYPELEC, dmELECT…)",
+            "Climatización, ventilación y PCI",
+            "Estructuras (CYPE 3D, Tricalc…)",
+            "Mediciones y presupuestos (Presto, Arquímedes…)",
+            "Certificación energética (CE3X, HULC, CYPETHERM…)",
+            "Ofimática (Microsoft 365, Google…)",
+            "Facturación y contabilidad",
+            "Seguimiento de expedientes",
+            "Almacenamiento de archivos",
+            "Comunicación (email, WhatsApp, Teams)",
+            "Firma electrónica y certificado digital"
+          ],
+          "placeholder": "Nombre de la herramienta"
+        },
+        {
+          "id": "infraestructura",
+          "label": "¿Dónde están tus archivos y programas?",
+          "type": "radio",
+          "options": [
+            "En mi ordenador o servidor de la oficina",
+            "Mixto",
+            "Casi todo en la nube",
+            "En la infraestructura de Cliente"
+          ]
+        },
+        {
+          "id": "apis",
+          "label": "¿Sabes si tus programas permiten exportar o conectar datos (IFC, BC3, Excel, API)?",
+          "type": "radio",
+          "options": [
+            "Sí, y tenemos la documentación",
+            "Creo que sí",
+            "No",
+            "No lo sé"
+          ]
+        },
+        {
+          "id": "automatizaciones",
+          "label": "¿Usáis ya alguna herramienta de automatización?",
+          "type": "checkbox",
+          "options": [
+            "Ninguna",
+            "Plantillas o macros de Word y Excel",
+            "Rutinas o plugins de Revit / AutoCAD (Dynamo, LISP)",
+            "Zapier",
+            "Make",
+            "n8n",
+            "Power Automate"
+          ],
+          "other": true
+        },
+        {
+          "id": "integraciones",
+          "label": "¿Qué datos pasan de un programa a otro sin que los copies a mano? ¿Cuáles tienes que copiar?",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "id": "satisfaccion",
+          "label": "Satisfacción general con tus programas actuales",
+          "type": "scale",
+          "min": 1,
+          "max": 5,
+          "minLabel": "Muy baja",
+          "maxLabel": "Muy alta"
+        },
+        {
+          "id": "herramienta_odiada",
+          "label": "¿Qué programa o trámite telemático te da más guerra y por qué?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "it_responsable",
+          "label": "¿Quién te resuelve la informática?",
+          "type": "radio",
+          "options": [
+            "Yo mismo",
+            "Un proveedor externo",
+            "El equipo de IT de Cliente",
+            "Mixto"
+          ]
+        },
+        {
+          "id": "presupuesto_it",
+          "label": "Gasto anual aproximado en licencias de software",
+          "type": "radio",
+          "options": [
+            "Menos de 2.000 €",
+            "2.000 – 5.000 €",
+            "5.000 – 15.000 €",
+            "Más de 15.000 €",
+            "No lo sé"
+          ]
+        },
+        {
+          "id": "cambios_previstos",
+          "label": "¿Tienes previsto cambiar o renovar algún programa, la web o tu forma de trabajar en los próximos 12 meses?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "hardware",
+          "label": "Equipos de trabajo",
+          "type": "checkbox",
+          "options": [
+            "Ordenador Windows",
+            "Ordenador Mac",
+            "Portátil para obra",
+            "Tablet en visitas",
+            "Móvil para fotos y notas de obra",
+            "Medidor láser o cámara termográfica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clientes",
+      "title": "Clientes y seguimiento de encargos",
+      "lead": "Cómo recibes solicitudes, preparas honorarios, acuerdas el alcance, haces seguimiento de expedientes y mantienes informado al cliente.",
+      "fields": [
+        {
+          "id": "captacion",
+          "label": "¿De dónde te llegan los encargos nuevos?",
+          "type": "checkbox",
+          "options": [
+            "Recomendación de clientes",
+            "Estudios de arquitectura e instaladores",
+            "Cliente",
+            "Mi web y Google",
+            "Habitissimo u otros portales",
+            "Colegio de Ingenieros",
+            "Licitaciones",
+            "Cadenas de retail que repiten"
+          ],
+          "other": true
+        },
+        {
+          "id": "proceso_comercial",
+          "label": "Describe qué pasa desde que te llama alguien hasta que acepta el presupuesto",
+          "type": "textarea",
+          "rows": 4,
+          "placeholder": "Ej.: llamada, visita, calculo honorarios con un Excel, mando PDF por email, sigo por teléfono…"
+        },
+        {
+          "id": "tiempo_respuesta",
+          "label": "¿Cuánto tardas de media en enviar un presupuesto de honorarios? ¿Cuántos se aceptan de cada 10?",
+          "type": "text"
+        },
+        {
+          "id": "canales_atencion",
+          "label": "¿Por dónde te contactan los clientes?",
+          "type": "checkbox",
+          "options": [
+            "Teléfono",
+            "Email",
+            "WhatsApp",
+            "Formulario de la web",
+            "En persona",
+            "A través del arquitecto o instalador"
+          ],
+          "other": true
+        },
+        {
+          "id": "volumen_consultas",
+          "label": "Consultas o peticiones de presupuesto por semana (aproximado)",
+          "type": "text",
+          "short": true
+        },
+        {
+          "id": "preguntas_repetidas",
+          "label": "Las cinco preguntas que más te repiten los clientes",
+          "type": "textarea",
+          "rows": 4,
+          "placeholder": "Ej.: ¿qué necesito para abrir mi local? ¿cuánto tarda la licencia? ¿cómo va lo mío?…"
+        },
+        {
+          "id": "postventa",
+          "label": "Después de entregar, ¿qué haces? (fin de obra, inspecciones periódicas, renovaciones, nuevos encargos del mismo cliente)",
+          "type": "textarea",
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Cómo utilizas la IA",
+      "lead": "Puede ser para preparar borradores, comparar documentos o localizar información en tu propio archivo. Nos interesa cómo revisas el resultado antes de utilizarlo en un trabajo profesional.",
+      "fields": [
+        {
+          "id": "uso_ia",
+          "label": "¿Usas ya la IA en tu trabajo?",
+          "type": "radio",
+          "options": [
+            "No",
+            "La he probado alguna vez",
+            "La uso de vez en cuando para redactar, buscar o resumir",
+            "La uso casi a diario",
+            "Ya tengo algo conectado a mis programas o documentos"
+          ],
+          "required": true
+        },
+        {
+          "id": "herramientas_ia",
+          "label": "¿Qué herramientas de IA has usado?",
+          "type": "checkbox",
+          "options": [
+            "ChatGPT",
+            "Claude",
+            "Gemini",
+            "Microsoft Copilot",
+            "Perplexity",
+            "NotebookLM",
+            "IA dentro de Revit, AutoCAD u otros programas técnicos",
+            "Transcripción de audios o reuniones"
+          ],
+          "other": true
+        },
+        {
+          "id": "para_que_ia",
+          "label": "¿Para qué la has usado y qué tal te ha ido? ¿Te ha fallado en algo técnico o normativo?",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "id": "licencias_ia",
+          "label": "¿Pagas alguna licencia de IA? ¿Cuál?",
+          "type": "text"
+        },
+        {
+          "id": "politica_ia",
+          "label": "¿Tienes (o te exige Cliente o algún cliente) normas sobre qué puedes hacer con IA?",
+          "type": "radio",
+          "options": [
+            "Sí, por escrito",
+            "Hay criterios informales",
+            "No"
+          ]
+        },
+        {
+          "id": "conocimiento_direccion",
+          "label": "Tu conocimiento de IA hoy",
+          "type": "scale",
+          "min": 1,
+          "max": 5,
+          "minLabel": "Ninguno",
+          "maxLabel": "Avanzado"
+        },
+        {
+          "id": "experimentacion",
+          "label": "Ante una herramienta nueva, sueles…",
+          "type": "radio",
+          "options": [
+            "Esperar a que esté muy probada",
+            "Probarla con cautela",
+            "Probar rápido y aprender sobre la marcha"
+          ]
+        },
+        {
+          "id": "preocupaciones",
+          "label": "¿Qué te preocupa de usar IA?",
+          "type": "checkbox",
+          "options": [
+            "Que cite mal la normativa o se invente artículos",
+            "Mi responsabilidad como técnico firmante",
+            "Confidencialidad de los proyectos de mis clientes",
+            "El coste",
+            "No tener tiempo para aprender",
+            "Depender de un proveedor",
+            "Cumplimiento legal (RGPD, AI Act)",
+            "No saber por dónde empezar"
+          ],
+          "other": true
+        },
+        {
+          "id": "ideas_ia",
+          "label": "¿Tienes ya alguna idea concreta de dónde te gustaría aplicar IA?",
+          "type": "textarea",
+          "rows": 3,
+          "help": "Por ejemplo: redactar el borrador de una memoria a partir de la toma de datos, consultar normativa con citas, preparar la respuesta a un requerimiento, sacar el acta de una visita a partir de un audio o calcular un presupuesto de honorarios."
+        }
+      ]
+    },
+    {
+      "id": "seguridad",
+      "title": "Documentos, confidencialidad y revisión",
+      "lead": "Qué información puedes utilizar, qué restricciones acuerdas con clientes o colaboradores y qué resultados requieren tu criterio y revisión profesional antes de firmar o entregar.",
+      "fields": [
+        {
+          "id": "rgpd",
+          "label": "¿Quién se ocupa de la protección de datos (RGPD) en tu actividad?",
+          "type": "radio",
+          "options": [
+            "Una empresa externa",
+            "Lo llevo yo",
+            "Lo lleva Cliente",
+            "Nadie en concreto"
+          ]
+        },
+        {
+          "id": "certificaciones",
+          "label": "Certificaciones o acreditaciones que tienes",
+          "type": "checkbox",
+          "options": [
+            "Cartas de calidad AESSIA (seguridad industrial)",
+            "ISO 9001",
+            "Seguro de responsabilidad civil profesional",
+            "Colegiado con visado en COIIAR",
+            "Ninguna"
+          ],
+          "other": true
+        },
+        {
+          "id": "nube",
+          "label": "¿Hay restricciones para subir documentos de clientes a la nube o a herramientas de IA?",
+          "type": "radio",
+          "options": [
+            "No hay restricciones",
+            "Solo proveedores dentro de la UE",
+            "Algunos datos no pueden salir de nuestros servidores",
+            "No lo sabemos"
+          ]
+        },
+        {
+          "id": "datos_prohibidos",
+          "label": "¿Hay proyectos o información que bajo ningún concepto deban pasar por herramientas externas? (clientes con NDA, industria, Cliente…)",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "restricciones_it",
+          "label": "Otras restricciones (lo que te exige Cliente, clientes que lo prohíben, el seguro de RC…)",
+          "type": "textarea",
+          "rows": 2
+        }
+      ]
+    },
+    {
+      "id": "madurez",
+      "title": "Tu punto de partida digital y de IA",
+      "lead": "Sitúate según tu práctica actual como profesional independiente. Un método propio, sencillo y revisado puede ser sólido: no necesitas departamentos, responsables distintos ni herramientas complejas.",
+      "fields": [
+        {
+          "id": "mad_estrategia_estrategia",
+          "label": "¿Cómo decides qué herramientas o mejoras incorporar a tu trabajo?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Resuelvo lo que surge, sin un criterio definido",
+            "Tengo algunas ideas o necesidades identificadas",
+            "Priorizo según su utilidad y esfuerzo, y reviso si funcionan"
+          ],
+          "legacyOptions": [
+            "No hay una dirección definida",
+            "Hay ideas o acuerdos informales",
+            "Hay una estrategia documentada, comunicada y revisada"
+          ]
+        },
+        {
+          "id": "mad_estrategia_patrocinio",
+          "label": "¿Cómo decides cuánto tiempo o dinero dedicar a una mejora?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No lo he concretado",
+            "Tengo una idea aproximada",
+            "Acoto lo que puedo dedicar y lo reviso según el resultado"
+          ],
+          "legacyOptions": [
+            "No hay responsable ni recursos definidos",
+            "Hay interés o una persona que lo impulsa de forma informal",
+            "Hay un responsable activo y recursos acordados"
+          ]
+        },
+        {
+          "id": "mad_estrategia_indicadores",
+          "label": "¿Cómo sabes si una herramienta o cambio te está ayudando?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No lo compruebo",
+            "Lo valoro según mi impresión o algún caso",
+            "Comparo referencias concretas de tiempo, calidad o seguimiento"
+          ],
+          "legacyOptions": [
+            "No se mide",
+            "Se revisa de manera informal",
+            "Hay indicadores y seguimiento periódico"
+          ]
+        },
+        {
+          "id": "mad_estrategia_alineacion",
+          "label": "¿Cómo conectas una mejora con lo que necesitas en tus encargos?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Pruebo sin un objetivo concreto",
+            "Tengo en mente alguna necesidad habitual",
+            "Elijo un problema concreto y compruebo si lo resuelve"
+          ],
+          "legacyOptions": [
+            "No se relacionan de forma explícita",
+            "Algunas responden a objetivos concretos",
+            "Se priorizan según objetivos acordados y se revisan"
+          ]
+        },
+        {
+          "id": "mad_estrategia_roadmap",
+          "label": "¿Cómo organizas los cambios que quieres hacer en los próximos meses?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No los tengo ordenados",
+            "Tengo una lista informal de ideas",
+            "Tengo prioridades realistas y voy revisando su avance"
+          ],
+          "legacyOptions": [
+            "No hay planificación",
+            "Hay una lista parcial o desactualizada",
+            "Hay una hoja de ruta actualizada con responsables"
+          ]
+        },
+        {
+          "id": "mad_estrategia_referencias",
+          "label": "¿Cómo valoras las herramientas o prácticas que ves en tu sector?",
+          "type": "radio",
+          "dimension": "estrategia",
+          "dimensionTitle": "Prioridades y planificación",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No suelo revisarlas",
+            "Consulto recursos o experiencias de vez en cuando",
+            "Comparo recursos del sector y pruebo si encajan en mi trabajo"
+          ],
+          "legacyOptions": [
+            "No se revisa",
+            "Se consulta de vez en cuando",
+            "Se revisan referencias comparables y se contrastan con el propio contexto"
+          ]
+        },
+        {
+          "id": "mad_operaciones_digitalizacion",
+          "label": "¿Cómo registras y organizas lo que ocurre en cada encargo?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Queda repartido o depende de recordarlo",
+            "Uso archivos y programas, con algunos huecos o duplicaciones",
+            "Tengo un sistema propio consistente y puedo seguir cada encargo"
+          ],
+          "legacyOptions": [
+            "Predominan el papel o registros dispersos",
+            "Parte está digitalizada con huecos o duplicaciones",
+            "Los pasos y registros relevantes están digitalizados y se revisan"
+          ]
+        },
+        {
+          "id": "mad_operaciones_automatizacion",
+          "label": "¿Cómo resuelves tareas que se repiten entre encargos?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Las preparo manualmente desde cero",
+            "Reutilizo plantillas o tengo alguna automatización puntual",
+            "Tengo ayudas repetibles que mantengo y compruebo"
+          ],
+          "legacyOptions": [
+            "Se hacen manualmente",
+            "Hay automatizaciones puntuales",
+            "Hay automatizaciones mantenidas y con seguimiento"
+          ]
+        },
+        {
+          "id": "mad_operaciones_ia_produccion",
+          "label": "¿Qué uso tiene hoy la IA en tu práctica profesional?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No la utilizo",
+            "La he probado o la uso ocasionalmente",
+            "La uso en tareas concretas con un método y revisión del resultado"
+          ],
+          "legacyOptions": [
+            "No se utiliza",
+            "Hay pruebas o usos individuales",
+            "Hay usos habituales definidos y revisados"
+          ]
+        },
+        {
+          "id": "mad_operaciones_documentacion",
+          "label": "¿Cómo mantienes tu método para un tipo de encargo habitual?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Me apoyo principalmente en la memoria y experiencia",
+            "Tengo algunas plantillas o listas de comprobación",
+            "Tengo un método reutilizable que actualizo cuando detecto mejoras"
+          ],
+          "legacyOptions": [
+            "Depende de quien lo hace",
+            "Hay algunas guías o plantillas",
+            "Hay procedimientos compartidos que se aplican y revisan"
+          ]
+        },
+        {
+          "id": "mad_operaciones_metricas",
+          "label": "¿Cómo conoces los tiempos y dificultades de tus encargos?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No los sigo de forma concreta",
+            "Tengo estimaciones o algunas anotaciones",
+            "Registro referencias útiles y las reviso para organizarme"
+          ],
+          "legacyOptions": [
+            "No se mide",
+            "Se miden algunas cosas de forma puntual",
+            "Hay indicadores y seguimiento de los procesos relevantes"
+          ]
+        },
+        {
+          "id": "mad_operaciones_mejora",
+          "label": "¿Qué haces cuando un mismo problema aparece en varios encargos?",
+          "type": "radio",
+          "dimension": "operaciones",
+          "dimensionTitle": "Encargos y forma de trabajar",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Lo resuelvo cada vez según surge",
+            "Cambio alguna cosa cuando me complica el trabajo",
+            "Reviso la causa, ajusto mi método y compruebo si mejora"
+          ],
+          "legacyOptions": [
+            "Sin una práctica definida",
+            "Se cambia algo cuando aparece un problema",
+            "Se revisan causas, mejoras y resultados periódicamente"
+          ]
+        },
+        {
+          "id": "mad_datos_organizacion",
+          "label": "¿Cómo localizas la versión válida de un documento o expediente?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Tengo que buscar en varios sitios y comparar versiones",
+            "Hay un orden general, con algunas dudas o duplicados",
+            "Tengo criterios claros para encontrar la versión válida y los mantengo"
+          ],
+          "legacyOptions": [
+            "Está dispersa y cuesta localizar la versión válida",
+            "Hay sistemas organizados pero separados",
+            "Hay fuentes de referencia y conexiones gestionadas cuando se necesitan"
+          ]
+        },
+        {
+          "id": "mad_datos_calidad",
+          "label": "¿Cómo detectas datos incompletos o errores antes de utilizar documentación?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Sin una comprobación habitual",
+            "Los compruebo cuando veo un problema",
+            "Uso comprobaciones adaptadas al encargo antes de reutilizarla"
+          ],
+          "legacyOptions": [
+            "No se comprueba de forma sistemática",
+            "Se corrigen problemas cuando se detectan",
+            "Hay controles y responsables que revisan su calidad"
+          ]
+        },
+        {
+          "id": "mad_datos_gobernanza",
+          "label": "¿Cómo decides quién puede ver, cambiar o recibir tus archivos?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Lo resuelvo caso a caso sin un criterio definido",
+            "Tengo algunas reglas o acuerdos básicos",
+            "Aplico criterios claros según cliente, colaborador y tipo de documento"
+          ],
+          "legacyOptions": [
+            "No están definidas",
+            "Hay acuerdos o reglas básicas",
+            "Hay responsables, permisos y reglas documentadas y aplicadas"
+          ]
+        },
+        {
+          "id": "mad_datos_analisis",
+          "label": "¿Cómo revisas la evolución de tu actividad?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No hago una revisión habitual",
+            "Reviso alguna cifra o situación cuando lo necesito",
+            "Reviso referencias útiles de encargos, tiempos o resultados periódicamente"
+          ],
+          "legacyOptions": [
+            "No hay análisis recurrente",
+            "Hay análisis o informes puntuales",
+            "Hay análisis recurrentes adecuados a las decisiones y se comprueban"
+          ]
+        },
+        {
+          "id": "mad_datos_paneles",
+          "label": "¿Cómo sigues los pendientes y las fechas importantes?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Dependo de recordarlos o reconstruirlos",
+            "Uso una lista, hoja o calendario con actualización irregular",
+            "Mantengo un sistema sencillo que me permite revisar pendientes y plazos"
+          ],
+          "legacyOptions": [
+            "Se recopilan desde cero cada vez",
+            "Hay informes o paneles con actualización parcial",
+            "Hay indicadores mantenidos y responsables de su revisión"
+          ]
+        },
+        {
+          "id": "mad_datos_decisiones",
+          "label": "¿Cómo utilizas esa información para organizar o valorar un nuevo encargo?",
+          "type": "radio",
+          "dimension": "datos",
+          "dimensionTitle": "Documentación e información",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Decido principalmente sobre la marcha",
+            "Combino mi experiencia con alguna referencia disponible",
+            "Contrasto referencias de encargos anteriores y reviso cómo resulta"
+          ],
+          "legacyOptions": [
+            "No se usan de forma explícita",
+            "Se combinan con la experiencia de manera informal",
+            "Se usan datos contrastados y se revisa el resultado de las decisiones"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_sistemas",
+          "label": "¿Cómo cubren tus programas las necesidades técnicas y de gestión?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Hay carencias que me obligan a dar muchos rodeos",
+            "Cubren buena parte, pero hay duplicación o tareas incómodas",
+            "Los programas encajan con mi trabajo y reviso si siguen siendo adecuados"
+          ],
+          "legacyOptions": [
+            "Hay carencias relevantes o tareas sin soporte",
+            "Cubren parte del trabajo con duplicidades o rodeos",
+            "Cubren las necesidades y se revisa su adecuación"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_infraestructura",
+          "label": "¿Cómo mantienes el equipo, las licencias y las copias que necesitas?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Lo atiendo cuando aparece un problema",
+            "Tengo algunas revisiones o apoyo puntual",
+            "Tengo una rutina o un proveedor que revisa lo importante"
+          ],
+          "legacyOptions": [
+            "Sin responsables o mantenimiento definido",
+            "Se atiende cuando surge una necesidad",
+            "Tiene responsables, mantenimiento y criterios acordados"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_integraciones",
+          "label": "¿Cómo pasas información entre programas?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "La vuelvo a escribir o copiar manualmente",
+            "Uso alguna conexión o reutilización automática",
+            "Mantengo las conexiones o ayudas que necesito y compruebo sus fallos"
+          ],
+          "legacyOptions": [
+            "Se reescriben o copian manualmente",
+            "Hay algunas conexiones automáticas",
+            "Las conexiones necesarias se mantienen y se revisan sus fallos"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_mantenimiento",
+          "label": "¿Cómo mantienes tus plantillas, hojas, macros o automatizaciones?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No tengo ayudas o no las reviso",
+            "Las ajusto cuando encuentro un problema",
+            "Conozco cómo funcionan y las reviso o sé a quién pedir apoyo"
+          ],
+          "legacyOptions": [
+            "No existen o nadie las mantiene",
+            "Dependen de una persona o ajustes puntuales",
+            "Tienen responsable, documentación y seguimiento"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_capacidad_ia",
+          "label": "Antes de usar IA en una tarea técnica, ¿cómo compruebas si encaja?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No lo he valorado todavía",
+            "Pruebo una herramienta para ver qué devuelve",
+            "Compruebo datos permitidos, utilidad, límites y revisión necesaria"
+          ],
+          "legacyOptions": [
+            "No se ha evaluado",
+            "Se prueban herramientas sin criterios comunes",
+            "Se comprueban accesos, adecuación y límites para cada caso"
+          ]
+        },
+        {
+          "id": "mad_tecnologia_seguridad",
+          "label": "¿Cómo proteges los equipos y accesos que usas en tus encargos?",
+          "type": "radio",
+          "dimension": "tecnologia",
+          "dimensionTitle": "Herramientas y conexiones",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Sin una rutina o criterio definido",
+            "Aplico algunas medidas básicas",
+            "Tengo medidas y una revisión periódica, por mi cuenta o con apoyo"
+          ],
+          "legacyOptions": [
+            "Sin prácticas definidas",
+            "Hay medidas básicas o informales",
+            "Hay controles, responsables y revisiones periódicas"
+          ]
+        },
+        {
+          "id": "mad_equipo_responsables",
+          "label": "¿Cómo gestionas las mejoras digitales de tu actividad?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Sin tiempo o una forma definida de atenderlas",
+            "Las atiendo cuando puedo o con ayuda puntual",
+            "Decido qué hago yo, qué apoyo necesito y cómo revisar el resultado"
+          ],
+          "legacyOptions": [
+            "No hay un rol definido",
+            "Forma parte informal de otra función",
+            "Hay responsabilidades y coordinación acordadas"
+          ]
+        },
+        {
+          "id": "mad_equipo_competencias",
+          "label": "¿Cómo conoces lo que puedes resolver tú y cuándo necesitas apoyo?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No lo tengo muy identificado",
+            "Lo conozco por experiencia, aunque hay dudas",
+            "Tengo claro mi nivel y recurro a apoyos concretos cuando hace falta"
+          ],
+          "legacyOptions": [
+            "No se conocen ni evalúan",
+            "Se conocen de manera informal",
+            "Se revisan capacidades y apoyos necesarios por función"
+          ]
+        },
+        {
+          "id": "mad_equipo_experimentacion",
+          "label": "¿Cómo pruebas una nueva forma de trabajar sin comprometer un encargo?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No suelo hacer pruebas",
+            "Hago pruebas puntuales cuando encuentro tiempo",
+            "Pruebo con un caso acotado, criterios y revisión antes de aplicarlo"
+          ],
+          "legacyOptions": [
+            "No hay espacio para probar",
+            "Hay pruebas puntuales",
+            "Se prueban con objetivos, límites y revisión del resultado"
+          ]
+        },
+        {
+          "id": "mad_equipo_adopcion",
+          "label": "¿Cómo incorporas una herramienta o cambio a tu rutina?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Lo voy resolviendo sobre la marcha",
+            "Busco ayuda o aprendo lo básico cuando lo necesito",
+            "Lo incorporo por pasos y compruebo que puedo mantenerlo"
+          ],
+          "legacyOptions": [
+            "Se introduce sin apoyo definido",
+            "Se explica o ayuda cuando hace falta",
+            "Se comunica, acompaña y recoge feedback de quienes lo usan"
+          ]
+        },
+        {
+          "id": "mad_equipo_formacion",
+          "label": "¿Cómo desarrollas las habilidades que necesitas para tu trabajo?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "No encuentro un momento o un enfoque claro",
+            "Hago formación o consultas puntuales",
+            "Elijo aprendizajes aplicables y reviso qué puedo usar después"
+          ],
+          "legacyOptions": [
+            "No hay formación o apoyo planificado",
+            "Hay formación ocasional",
+            "Hay aprendizaje aplicado y revisión de necesidades"
+          ]
+        },
+        {
+          "id": "mad_equipo_colaboracion",
+          "label": "¿Cómo coordinas información y entregas con clientes o colaboradores?",
+          "type": "radio",
+          "dimension": "equipo",
+          "dimensionTitle": "Autonomía, aprendizaje y colaboración",
+          "scoreValues": [
+            0,
+            1,
+            2
+          ],
+          "options": [
+            "Depende de mensajes sueltos y recordatorios",
+            "Hay acuerdos, aunque a veces falta información o seguimiento",
+            "Uso criterios claros para solicitar, compartir y revisar las entregas"
+          ],
+          "legacyOptions": [
+            "La información depende de cada persona",
+            "Hay coordinación pero con interrupciones o huecos",
+            "Hay acuerdos de coordinación y traspaso de información que se revisan"
+          ]
+        },
+        {
+          "id": "mad_evidencias",
+          "label": "¿Qué ejemplos de tu trabajo respaldan estas respuestas?",
+          "type": "textarea",
+          "help": "Puedes citar una plantilla, una lista de revisión, una hoja de seguimiento o tu manera de organizar expedientes, sin subir documentos de clientes."
+        },
+        {
+          "id": "mad_objetivo",
+          "label": "¿Qué te gustaría hacer con más autonomía o menos esfuerzo?",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "prioridades",
+      "title": "Por dónde te gustaría empezar",
+      "lead": "Elige qué parte de tu trabajo merece más atención en la consultoría. Las prioridades ayudan a seleccionar un caso útil para ti; el resto de información se conserva.",
+      "fields": [
+        {
+          "id": "prioridad_areas",
+          "label": "¿Qué prioridad tiene mejorar cada parte de tu trabajo?",
+          "type": "matrix_choice",
+          "rows": [
+            "Redacción de memorias y proyectos",
+            "Consulta de normativa",
+            "Tramitación de licencias y visados",
+            "Respuesta a requerimientos",
+            "Presupuestos de honorarios",
+            "Dirección de obra y actas",
+            "Certificación energética",
+            "Peritaciones e informes",
+            "Seguimiento de expedientes y aviso a clientes",
+            "Captación de clientes y web",
+            "Facturación y cobros",
+            "Orden del archivo de expedientes"
+          ],
+          "cols": [
+            "Alta",
+            "Media",
+            "Baja",
+            "No aplica"
+          ]
+        },
+        {
+          "id": "no_tocar",
+          "label": "¿Hay algo que NO quieres cambiar o que prefieres no tratar en la sesión?",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "material",
+          "label": "¿Qué podrías traer o compartir antes de la sesión? (lo pediremos por separado)",
+          "type": "checkbox",
+          "options": [
+            "Una memoria técnica de licencia reciente (anonimizada)",
+            "La plantilla de memoria que usas",
+            "Un requerimiento del Ayuntamiento y tu respuesta",
+            "Tu hoja de cálculo de honorarios",
+            "Un acta de visita o informe de dirección de obra",
+            "Un informe pericial (anonimizado)",
+            "El listado de expedientes del último año",
+            "Capturas de la sede electrónica o del visado que más usas"
+          ],
+          "other": true
+        },
+        {
+          "id": "disponibilidad",
+          "label": "Preferencias para la sesión (fechas, presencial en Zaragoza u online, en un bloque o partida)",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "id": "comentarios",
+          "label": "¿Algo más que debamos saber antes de vernos?",
+          "type": "textarea",
+          "rows": 3
+        }
+      ]
+    }
+  ],
+  "pageTitle": "WTG · Cuestionario",
+  "storageKey": "wtg-discovery-demo",
+  "minutes": "20–30",
+  "backUrl": "/",
+  "sendTo": "",
+  "schemaVersion": 2,
+  "clientId": "demo",
+  "maturityDimensions": [
+    {
+      "id": "estrategia",
+      "title": "Prioridades y planificación"
+    },
+    {
+      "id": "operaciones",
+      "title": "Encargos y forma de trabajar"
+    },
+    {
+      "id": "datos",
+      "title": "Documentación e información"
+    },
+    {
+      "id": "tecnologia",
+      "title": "Herramientas y conexiones"
+    },
+    {
+      "id": "equipo",
+      "title": "Autonomía, aprendizaje y colaboración"
+    }
+  ],
+  "audience": "independent-professional",
+  "prefill": {}
+}

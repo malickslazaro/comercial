@@ -1,0 +1,61 @@
+{
+  "id": "estudio-demo",
+  "public": {
+    "company": "Estudio Ejemplo",
+    "design": "suderow",
+    "title": "Un primer paso para trabajar mejor con IA",
+    "intro": "Propuesta ilustrativa para identificar y poner a prueba una mejora concreta.",
+    "cta": {
+      "label": "Acordar los próximos pasos",
+      "url": "https://calendar.notion.so/meet/malick-q419e11262/wtg"
+    },
+    "sections": [
+      {
+        "title": "Qué queremos conseguir",
+        "text": "Entender la operativa, priorizar oportunidades y definir una primera tarea que desbloquear.",
+        "items": [
+          "Revisar un proceso real",
+          "Identificar tareas repetitivas",
+          "Acordar un resultado verificable"
+        ]
+      },
+      {
+        "title": "Cómo trabajamos",
+        "items": [
+          "Preparación con el cuestionario",
+          "Entrevistas y observación del proceso",
+          "Mapa de oportunidades y prioridades",
+          "Hoja de ruta y reunión de validación"
+        ]
+      }
+    ],
+    "options": [
+      {
+        "name": "Consultoría",
+        "amount": "1000.00",
+        "includes": [
+          "Diagnóstico y mapa de procesos",
+          "Hoja de ruta priorizada"
+        ]
+      },
+      {
+        "name": "Consultoría y formación",
+        "amount": "1800.00",
+        "includes": [
+          "Todo lo incluido en consultoría",
+          "Taller aplicado al equipo"
+        ]
+      }
+    ],
+    "vatRate": "21",
+    "faqs": [
+      {
+        "question": "¿Cómo empezamos?",
+        "answer": "Confirmamos el alcance y acordamos un calendario de inicio."
+      }
+    ]
+  },
+  "internal": {
+    "note": "Ejemplo ficticio. Los precios no son tarifas WTG."
+  }
+}

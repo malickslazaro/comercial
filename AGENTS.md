@@ -1,0 +1,2 @@
+# Comercial WTG
+Usa las dos skills de `skills/`. Conserva el sistema visual de `docs/diseno.md`. No copies datos reales de los casos de referencia al repositorio público. Usa expedientes privados fuera del checkout o dentro de `clientes/` (ignorado). Solo publica la carpeta de salida de un cliente. La petición de actualizar este repositorio no autoriza modificar webs de clientes. No envíes correos ni actives servicios de pago sin autorización. No uses precios de ejemplos como tarifas reales.
